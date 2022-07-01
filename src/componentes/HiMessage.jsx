@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default class HiMessage extends React.Component {
+export default class HiMessage extends React.Component {    
     render() {
         return (
         <h2> 
-            Hi Everybody 
+            Oi pessoal! {this.props.mensagem} 
         </h2>
         )
     }
