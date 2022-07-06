@@ -5,6 +5,7 @@ import MeuCard from './componentes/MeuCard';
 import ListaCards from './componentes/ListaCards'
 import BotaoContClass from './componentes/BotaoContClass';
 import BotaoContFuncao from './componentes/BotaoContFuncao';
+import ListaProdutos from './componentes/ListProdutos';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       </MeuCard>
       <BotaoContClass></BotaoContClass>      
       <BotaoContFuncao></BotaoContFuncao>
-      <ListaCards></ListaCards>
+      {/* <ListaCards></ListaCards> */}
+      <ListaProdutos></ListaProdutos>
     </div>
   );
 }
